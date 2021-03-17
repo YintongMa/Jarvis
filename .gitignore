@@ -1,0 +1,92 @@
+# Most common in-tree build directory.
+#
+# Note: build output files are not explicitly listed here because they are
+# expected to fall within in the build directory (and indeed, if they're
+# outside for some reason, we want to know as it's likely an error).
+build/
+
+perf.data
+perf.data.old
+oprofile_data
+.ycm_extra_conf.pyc
+*.kdev4
+.kdev4/
+.metadata/
+*.iml
+
+# spark testing
+extracted_from_archive.sha256
+
+# VIM/emacs stuff
+*.sw?
+*~
+# These files could be used to auto-save vim sessions.
+.session.vim
+.session.vim.lock
+
+# IDE cruft
+.settings/
+.idea/
+nbproject/
+.project
+.cproject
+.csettings/
+
+# WWW dependencies which are not checked in directly
+www/tracing.*
+
+# Python
+*.py[ocd]
+python_virtual_env/
+venv/
+
+# Backup files
+*.bak
+
+# CLion directories
+/cmake-build-debug
+
+# screen sometimes makes these, I think
+/hardcopy.*
+
+# Temporary files
+.DS_Store
+.\#*.proto
+
+# C# Object files
+*.userprefs
+
+# These files might appear when applying patches.
+*.orig
+*.rej
+
+.tags
+.tags_sorted_by_file
+cscope.out
+
+build/python_virtual_env
+build/venv
+*.versionsBackup
+
+.vscode
+
+hs_err_pid*.log
+
+compile_commands.json
+
+test_results.json
+test_failures.json
+*_test_report.json
+
+# Eclipse and Eclipse-compatible tools
+.classpath
+.metadata/
+
+# Diagram generator for docs
+rrdiagram*.jar*
+
+.clangd
+
+.cache
+
+target/

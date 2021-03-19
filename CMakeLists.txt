@@ -3,4 +3,4 @@ project(Jarvis)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Jarvis src/main.cpp)
+add_executable(Jarvis src/main.cpp src/storage/kvstore.cpp src/storage/kvstore.h)
